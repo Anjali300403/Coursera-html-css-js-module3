@@ -1,0 +1,42 @@
+body{
+    font-size:16px;
+    color:black;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.navbar {
+    background-color:gray;
+    border-radius:0;
+    border: 0;
+}
+a{
+    text-decoration: none !important ;
+    color: black;
+  }
+a.nav-link{
+    text-align:center;
+}
+
+h1{
+    text-align: center;
+    size:0.75em;
+
+}
+#cmenu .container{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: gray;
+}
+.container h2{
+    text-align: center;  
+}
+.navbar navbar-expand-lg .container{
+    position:relative;
+    float:right;
+}
+@media (max-width: 0px) and (max-width: 576px) {
+    #cmenu .container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+}
